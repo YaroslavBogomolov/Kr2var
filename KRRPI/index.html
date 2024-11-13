@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учет расходов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Учет расходов</h1>
+
+        <div id="add-expense-form"></div>
+
+        <div class="expense-filter">
+            <label for="category-filter">Фильтр по категориям:</label>
+            <select id="category-filter">
+                <option value="all">Все</option>
+                <option value="Еда">Еда</option>
+                <option value="Транспорт">Транспорт</option>
+                <option value="Развлечения">Развлечения</option>
+            </select>
+
+        </div>
+
+        <div class="expense-list">
+            <h2>Список расходов</h2>
+            <ul id="expense-list">
+                
+            </ul>
+        </div>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
